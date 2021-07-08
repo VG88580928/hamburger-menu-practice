@@ -155,7 +155,7 @@
     transition: opacity 0.4s ease;
 }
 
-.menu-wrap .menu > div > ul > li:hover {
+.menu-wrap .menu > div > ul > li >a:hover {
     color: #adadad;
 }
 
