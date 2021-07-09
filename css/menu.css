@@ -124,7 +124,7 @@
 }
 
 .menu-wrap .menu > div {
-    background-color: rgba(24, 39, 51, 0.85);
+    background-color: rgba(24, 39, 51, 0.9);
     width: 200vw;
     height: 200vw;
     border-radius: 50%;
@@ -143,6 +143,7 @@
     list-style: none;
     padding: 1rem;
     font-size: 1.5rem;
+    font-weight: 600;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
