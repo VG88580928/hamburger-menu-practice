@@ -87,16 +87,7 @@
 }
 
 .menu-wrap .toggler:checked ~ .menu > div {
-    background-color: rgba(24, 39, 51, 0.85);
-    width: 200vw;
-    height: 200vw;
-    border-radius: 50%;
-    display: flex;
-    flex: 0 0 auto;    /* <<等同flex: none, 三個值分別為<flex-grow> <flex-shrink> <flex-basis>的值 */
-    justify-content: center;
-    align-items: center;
-    transition: all 0.4s ease;
-    transition-duration: 0.7s;
+    transform: scale(1);
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > ul > li {
@@ -134,13 +125,14 @@
 
 .menu-wrap .menu > div {
     background-color: rgba(24, 39, 51, 0.85);
-    width: 0;
-    height: 0;
+    width: 200vw;
+    height: 200vw;
     border-radius: 50%;
     display: flex;
     flex: 0 0 auto;    /* <<等同flex: none, 三個值分別為<flex-grow> <flex-shrink> <flex-basis>的值 */
     justify-content: center;
     align-items: center;
+    transform: scale(0);
     transition: all 0.4s ease;
     transition-duration: 0.7s;
 }
