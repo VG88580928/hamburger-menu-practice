@@ -61,12 +61,14 @@
     top: 10px;
 }
 
-/* 漢堡線動畫效果 */
+/* --漢堡線動畫效果-- */
+
+/* 先轉好中間那條線(135度) */
 .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
 }
 
-/* 點擊後把漢堡線轉成叉叉 */
+/* 再把上下兩條合起來後,轉90度 */
 
 .menu-wrap .toggler:checked + .hamburger > div::before, 
 .menu-wrap .toggler:checked + .hamburger > div::after {
